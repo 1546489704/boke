@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2caac9ec-30f7-438f-a8a7-df4b636dc7db" name="Default Changelist" comment="Default Changelist">
-      <change beforePath="$PROJECT_DIR$/boke.iml" beforeDir="false" afterPath="$PROJECT_DIR$/boke.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,17 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,6 +59,9 @@
       <find>out</find>
       <find>rightpic</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -167,7 +160,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="更新" />
     <ConfirmationsSetting value="2" id="添加" />
     <ConfirmationsSetting value="2" id="移除" />
@@ -186,6 +179,17 @@
               <item name="boke" type="b2602c69:ProjectViewProjectNode" />
               <item name="boke" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="boke" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boke" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="boke" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boke" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="csdj" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -198,13 +202,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545881795631" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -304,28 +308,6 @@
     <configuration>C:\Users\H丶丢心先生\AppData\Roaming\Subversion</configuration>
     <supportedVersion>125</supportedVersion>
   </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="D:\BaiduNetdiskDownload\IdeaProject\boke" />
-          <option name="myCopyRoot" value="D:\BaiduNetdiskDownload\IdeaProject\boke" />
-        </SvnCopyRootSimple>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="D:\BaiduNetdiskDownload\IdeaProject\boke\.idea" />
-          <option name="myCopyRoot" value="D:\BaiduNetdiskDownload\IdeaProject\boke\.idea" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="D:\BaiduNetdiskDownload\IdeaProject\boke" />
-          <option name="myCopyRoot" value="D:\BaiduNetdiskDownload\IdeaProject\boke" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2caac9ec-30f7-438f-a8a7-df4b636dc7db" name="Default Changelist" comment="" />
@@ -387,6 +369,7 @@
       <workItem from="1549091434293" duration="293000" />
       <workItem from="1549516945865" duration="20000" />
       <workItem from="1550019122949" duration="126000" />
+      <workItem from="1550105089212" duration="1083000" />
     </task>
     <task id="LOCAL-00030">
       <created>1544099824891</created>
@@ -735,7 +718,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="319814000" />
+    <option name="totallyTimeSpent" value="320897000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -749,7 +732,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19379258" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20439062" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -758,7 +741,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="设计器" order="8" />
-      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.6959153" weight="0.33816424" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.6959153" weight="0.41062802" />
       <window_info anchor="bottom" id="Application Servers" order="1" weight="0.32903227" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.30408472" side_tool="true" weight="0.30595812" />
@@ -844,9 +827,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/homepage/list.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/homepage/time.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1156,15 +1136,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/csdj/database.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="-527">
+          <caret line="62" column="56" lean-forward="true" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/csdj/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1418">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/csdj/database.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
