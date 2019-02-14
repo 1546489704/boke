@@ -1,8 +1,7 @@
 package com.csdj.dao.Impl;
 
 import com.csdj.dao.BaseDao;
-//import com.csdj.dao.YuluDao;
-import com.csdj.dao.YuluDao;
+import com.csdj.dao.YuluMapper.YuluMapper;
 import com.csdj.entity.yulu;
 
 import java.sql.Connection;
@@ -15,7 +14,7 @@ import java.util.List;
 /**
  * 语录
  */
-public class YuluDaoImpl implements YuluDao {
+public class YuluDaoImpl implements YuluMapper {
 
     /*
     查询

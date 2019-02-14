@@ -1,7 +1,7 @@
 package com.csdj.dao.Impl;
 
 import com.csdj.dao.BaseDao;
-import com.csdj.dao.InformsDao;
+import com.csdj.dao.InformsMapper.InformsMapper;
 import com.csdj.entity.Informs;
 
 import java.sql.Connection;
@@ -11,7 +11,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class InformsDaoImpl implements InformsDao {
+public class InformsDaoImpl implements InformsMapper {
     @Override
     public int fabu(Connection connection, Informs informs) throws SQLException {
         PreparedStatement pstm = null;

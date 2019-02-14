@@ -1,11 +1,10 @@
 package com.csdj.service.Impl;
 
 import com.csdj.dao.BaseDao;
-import com.csdj.dao.CommentBackDao;
+import com.csdj.dao.CommentBackMapper.CommentBackMapper;
 import com.csdj.dao.Impl.CommentBackDaoImpl;
 import com.csdj.entity.CommentBack;
 import com.csdj.service.CommentBackServiceDao;
-import com.csdj.util.DataBaseUtil;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -13,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CommentBackServiceImpl implements CommentBackServiceDao {
-  private CommentBackDao commentBackDao;
+  private CommentBackMapper commentBackDao;
   public CommentBackServiceImpl(){
       commentBackDao=new CommentBackDaoImpl();
   }

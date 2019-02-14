@@ -1,7 +1,7 @@
 package com.csdj.dao.Impl;
 
 import com.csdj.dao.BaseDao;
-import com.csdj.dao.UserDao;
+import com.csdj.dao.UserMapper.UserMapper;
 import com.csdj.entity.User;
 import com.csdj.util.Page;
 
@@ -21,7 +21,7 @@ import java.util.List;
  *
  * @create: 2018-12-17 08:54
  **/
-public class UserDaoImpl  implements UserDao {
+public class UserDaoImpl  implements UserMapper {
     /**
      * 查找是否登录成功
      * @param connection

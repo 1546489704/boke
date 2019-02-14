@@ -1,12 +1,12 @@
 package com.csdj.dao.Impl;
 
 import com.csdj.dao.BaseDao;
-import com.csdj.dao.CommentsDao;
+import com.csdj.dao.CommentsMapper.CommentsMapper;
 import com.csdj.entity.Comments;
 import com.csdj.entity.Posts;
 import com.csdj.entity.User;
 import com.csdj.util.Page;
-import javax.xml.stream.events.Comment;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -17,7 +17,7 @@ import java.util.List;
 /**
  *
  */
-public class CommentsDaoImpl  implements CommentsDao {
+public class CommentsDaoImpl  implements CommentsMapper {
     /**
      * 添加评论
      * @param Comments

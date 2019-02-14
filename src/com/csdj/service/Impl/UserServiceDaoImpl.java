@@ -2,15 +2,12 @@ package com.csdj.service.Impl;
 
 import com.csdj.dao.BaseDao;
 import com.csdj.dao.Impl.UserDaoImpl;
-import com.csdj.dao.UserDao;
-import com.csdj.entity.Posts;
+import com.csdj.dao.UserMapper.UserMapper;
 import com.csdj.entity.User;
 import com.csdj.service.UserServiceDao;
-import com.csdj.util.DataBaseUtil;
 import com.csdj.util.Page;
 
 import java.sql.Connection;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +22,7 @@ import java.util.List;
  * @create: 2018-12-17 08:54
  **/
 public class UserServiceDaoImpl implements UserServiceDao {
-   private UserDao userDao;
+   private UserMapper userDao;
    public UserServiceDaoImpl(){
        userDao=new UserDaoImpl();
    }

@@ -1,7 +1,7 @@
 package com.csdj.dao.Impl;
 
 import com.csdj.dao.BaseDao;
-import com.csdj.dao.CommentBackDao;
+import com.csdj.dao.CommentBackMapper.CommentBackMapper;
 import com.csdj.entity.CommentBack;
 import com.csdj.entity.User;
 
@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * 回复评论类
  */
-public class CommentBackDaoImpl implements CommentBackDao {
+public class CommentBackDaoImpl implements CommentBackMapper {
 
     /**
      * 查询回复的评论

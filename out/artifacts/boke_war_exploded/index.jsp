@@ -183,36 +183,36 @@
         var song = [
             {
                 'cover':"images/dxlznsb.jpg",
-                'src' : 'mp3/dxlznsb.mp3',
+                'src' : 'static/mp3/dxlznsb.mp3',
                 'title' : '多想留在你身边-刘增瞳'
             },{
                 'cover' : 'images/yzw.jpg',
-                'src' : 'mp3/geldzj.mp3',
+                'src' : 'static/mp3/geldzj.mp3',
                 'title' : '给未来的自己-杨宗纬 . Star!Start! 星空传奇演唱会'
             },
             {
                 'cover' : 'images/PLANET.jpg',
-                'src' : 'mp3/PLANET.mp3',
+                'src' : 'static/mp3/PLANET.mp3',
                 'title' : 'PLANET-ラムジ'
             },
             {
                 'cover' : 'images/lrh.jpg',
-                'src' : 'mp3/jy.mp3',
+                'src' : 'static/mp3/jy.mp3',
                 'title' : '戒烟-李荣浩'
             },
             {
                 'cover' : 'images/ps.jpg',
-                'src' : 'mp3/PFZL.mp3',
+                'src' : 'static/mp3/PFZL.mp3',
                 'title' : '平凡之路-朴树'
             },
             {
                 'cover' : 'images/yw.jpg',
-                'src' : 'mp3/ShapeofYou.mp3',
+                'src' : 'static/mp3/ShapeofYou.mp3',
                 'title' : 'ShapeofYou-艾德·希兰'
             },
             {
                 'cover' : 'images/zwy.jpg',
-                'src' : 'mp3/ZWY.mp3',
+                'src' : 'static/mp3/ZWY.mp3',
                 'title' : '钟无艳-谢安琪'
             }
         ];

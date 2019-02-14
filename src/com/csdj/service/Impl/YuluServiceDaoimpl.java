@@ -2,7 +2,7 @@ package com.csdj.service.Impl;
 
 import com.csdj.dao.BaseDao;
 import com.csdj.dao.Impl.YuluDaoImpl;
-import com.csdj.dao.YuluDao;
+import com.csdj.dao.YuluMapper.YuluMapper;
 import com.csdj.entity.yulu;
 import com.csdj.service.YuluServiceDao;
 
@@ -11,8 +11,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 public class YuluServiceDaoimpl implements YuluServiceDao  {
-
-    private YuluDao yuludao;
+    private YuluMapper yuludao;
 
     public  YuluServiceDaoimpl(){
         yuludao=new YuluDaoImpl();

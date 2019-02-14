@@ -2,10 +2,9 @@ package com.csdj.service.Impl;
 
 import com.csdj.dao.BaseDao;
 import com.csdj.dao.Impl.PhotoDaoImpl;
-import com.csdj.dao.PhotoDao;
+import com.csdj.dao.PhotoMapper.PhotoMapper;
 import com.csdj.entity.photo;
 import com.csdj.service.PhotoService;
-import com.csdj.util.DataBaseUtil;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -22,7 +21,7 @@ import java.util.List;
  **/
 public class PhotoServiceImpl implements PhotoService {
     //定义相册dao
-  private PhotoDao photoDao;
+  private PhotoMapper photoDao;
   //构造方法中用向上转向实例化相册实现类
   public PhotoServiceImpl(){
       photoDao=new PhotoDaoImpl();

@@ -1,7 +1,7 @@
 package com.csdj.dao.Impl;
 
 import com.csdj.dao.BaseDao;
-import com.csdj.dao.PostsDao;
+import com.csdj.dao.PostsMapper.PostsMapper;
 import com.csdj.entity.Posts;
 import com.csdj.entity.User;
 import com.csdj.entity.photo;
@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * 帖子的增删改查DAO
  */
-public class PostsDaoImol  implements PostsDao {
+public class PostsDaoImol  implements PostsMapper {
 
     /**
      * 查询风风的所有帖子

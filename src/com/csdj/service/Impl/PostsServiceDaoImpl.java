@@ -2,13 +2,10 @@ package com.csdj.service.Impl;
 
 import com.csdj.dao.BaseDao;
 import com.csdj.dao.Impl.PostsDaoImol;
-import com.csdj.dao.Impl.UserDaoImpl;
-import com.csdj.dao.PostsDao;
-import com.csdj.dao.UserDao;
+import com.csdj.dao.PostsMapper.PostsMapper;
 import com.csdj.entity.Posts;
 import com.csdj.entity.photo;
 import com.csdj.service.PostsServiceDao;
-import com.csdj.util.DataBaseUtil;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -19,7 +16,7 @@ import java.util.List;
  * 帖子的实现类
  */
 public class PostsServiceDaoImpl implements PostsServiceDao {
-  private PostsDao postsDao;
+  private PostsMapper postsDao;
   public  PostsServiceDaoImpl(){
       postsDao=new PostsDaoImol();
   }

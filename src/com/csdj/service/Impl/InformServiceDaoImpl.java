@@ -2,7 +2,7 @@ package com.csdj.service.Impl;
 
 import com.csdj.dao.BaseDao;
 import com.csdj.dao.Impl.InformsDaoImpl;
-import com.csdj.dao.InformsDao;
+import com.csdj.dao.InformsMapper.InformsMapper;
 import com.csdj.entity.Informs;
 import com.csdj.service.InformsServiceDao;
 
@@ -10,7 +10,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 public class InformServiceDaoImpl implements InformsServiceDao {
-    private InformsDao informsDao;
+    private InformsMapper informsDao;
     public InformServiceDaoImpl(){
         informsDao=new InformsDaoImpl();
     }

@@ -2,7 +2,7 @@ package com.csdj.service.Impl;
 
 import com.csdj.dao.BaseDao;
 import com.csdj.dao.Impl.LeavesDaoImpl;
-import com.csdj.dao.LeavesDao;
+import com.csdj.dao.LeavesMapper.LeavesMapper;
 import com.csdj.entity.Leaves;
 import com.csdj.service.LeavesService;
 
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LeavesServiceImpl implements LeavesService {
-    public LeavesDao lb=new LeavesDaoImpl();
+    public LeavesMapper lb=new LeavesDaoImpl();
     /**
      * 查询所有的留言
      * @return

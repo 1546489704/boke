@@ -1,12 +1,8 @@
 package com.csdj.service;
 
-import com.csdj.dao.CommentsDao;
 import com.csdj.entity.Comments;
-import com.csdj.entity.Privates;
 import com.csdj.util.Page;
 
-import java.sql.Connection;
-import java.sql.SQLException;
 import java.util.List;
 
 /**

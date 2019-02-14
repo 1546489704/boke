@@ -1,9 +1,8 @@
 package com.csdj.dao.Impl;
 
 import com.csdj.dao.BaseDao;
-import com.csdj.dao.PhotoDao;
+import com.csdj.dao.PhotoMapper.PhotoMapper;
 import com.csdj.entity.photo;
-import org.w3c.dom.ls.LSException;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -21,7 +20,7 @@ import java.util.List;
  *
  * @create: 2018-12-17
  **/
-public class PhotoDaoImpl implements PhotoDao {
+public class PhotoDaoImpl implements PhotoMapper {
     @Override
     /**
      * 查询首页六张图片

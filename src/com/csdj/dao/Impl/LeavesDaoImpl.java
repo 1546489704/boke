@@ -1,9 +1,8 @@
 package com.csdj.dao.Impl;
 
 import com.csdj.dao.BaseDao;
-import com.csdj.dao.LeavesDao;
+import com.csdj.dao.LeavesMapper.LeavesMapper;
 import com.csdj.entity.Leaves;
-import com.sun.xml.internal.bind.v2.model.core.ID;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,7 +11,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LeavesDaoImpl implements LeavesDao {
+public class LeavesDaoImpl implements LeavesMapper {
     /**
      * 查询所有的留言
      * @param connection

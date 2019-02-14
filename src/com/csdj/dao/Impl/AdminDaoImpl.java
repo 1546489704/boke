@@ -1,10 +1,10 @@
 package com.csdj.dao.Impl;
 
-import com.csdj.dao.AdminDao;
+import com.csdj.dao.AdminMapper.AdminMapper;
 import com.csdj.dao.BaseDao;
 import com.csdj.entity.Admin;
 
-public class AdminDaoImpl extends BaseDao implements AdminDao {
+public class AdminDaoImpl extends BaseDao implements AdminMapper {
     @Override
     public Admin findAdmin(Admin admin) {
         return null;

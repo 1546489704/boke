@@ -1,10 +1,9 @@
 package com.csdj.service.Impl;
 
 import com.csdj.dao.BaseDao;
-import com.csdj.dao.CommentsDao;
+import com.csdj.dao.CommentsMapper.CommentsMapper;
 import com.csdj.dao.Impl.CommentsDaoImpl;
 import com.csdj.entity.Comments;
-import com.csdj.entity.Privates;
 import com.csdj.service.CommentsServiceDao;
 import com.csdj.util.DataBaseUtil;
 import com.csdj.util.Page;
@@ -18,7 +17,7 @@ import java.util.List;
  * 评论业务层
  */
 public class CommentsServiceDaoImpl implements CommentsServiceDao {
-   private CommentsDao commentsDao;
+   private CommentsMapper commentsDao;
    public CommentsServiceDaoImpl(){
        commentsDao=new CommentsDaoImpl();
    }
